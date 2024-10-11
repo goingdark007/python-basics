@@ -18,14 +18,6 @@ while a <= 10 :
     print(a)
 # continue skips the iterations
 # just like step, does not send value to code
-print()a = 1
-
-while a <= 10:
-    if a == 6:
-        break 
-    print(a)
-    a += 1
-print(a) 
 
 a = 1
 
