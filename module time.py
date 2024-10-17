@@ -23,3 +23,15 @@ p = time.asctime(n)
 
 print(p)
 #prints it
+
+
+i = 10
+# declares and assigns value
+
+while i >= 0:
+    
+    print(i)
+    i -= 1
+    #decrements
+    time.sleep(1)
+    # it gives 1 second interval between each print
