@@ -68,3 +68,19 @@ tuple = ' '.join(tuple)
 print(a,'\t',tuple)
 # merges the list or tuple or split words
 # into one and ' ' is added at the joints
+
+# strip()
+a = 'a   b'
+
+a = a[:3].strip()
+#removes extra space or tab or n in string slicing
+
+print(a)
+
+b = ['\n','a']
+
+for i in b:
+    if i.strip():
+        # filters empty line or string
+        print(b)
+        
